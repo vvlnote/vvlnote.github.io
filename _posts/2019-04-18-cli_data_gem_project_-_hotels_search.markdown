@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Data Gem Project - Hotels search"
-date:       2019-04-18 22:42:10 +0000
+date:       2019-04-18 18:42:11 -0400
 permalink:  cli_data_gem_project_-_hotels_search
 ---
 
