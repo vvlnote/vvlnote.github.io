@@ -59,5 +59,5 @@ What can be improved/extended for this project:
 * can be combined with the Google maps to calculate the distance between the place you are going to visit and the hotel.
 * need to resolve the issue about pry not working on my local environment
 
-[https://www.youtube.com/watch?v=sg6xhkPUUik
+[https://www.youtube.com/watch?v=sg6xhkPUUik]
 
