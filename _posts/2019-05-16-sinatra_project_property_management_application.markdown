@@ -56,21 +56,21 @@ There are the following:
           - new
           - show
 
-## The steps to implement this project:
+The steps to implement this project:
 
 
 Learned from the mistake
 1. session
-     - if "session_secret" did not set or typo, the newly added keys in the session can not be access in the other routes
-     - since the session is enabled, and session_secret is set, and the class User has macro : has_secure_password. when you save the user data without the password, this data record won't be able to be saved into the database
+     - if "session_secret" did not set or had typo, the newly added keys in the session can not be access in the other routes
+     - since the session is enabled, and session_secret is set, and the class User has macro : has_secure_password. When you save the user data without the password, this data record won't be able to be saved into the database
 2. sinatra::flash
      - I try to display the error message via sinatra flash. I follow the steps that listed in https://github.com/SFEley/sinatra-flash. 
      - I did the following steps:
          a. install sinatra-flash
 				 b. insert 'require sinatra/flash' in the application_controller.rb file (since all the controller classes are inherented from application_controller class, sinatra/flash will be seen in all the inhrented classes)
 				 c. my application is inherented from Sinatra::Base, in order for sinatra/flash to work, I need to register Sinatra::Flash
-		 - all the basic steps are completed
-	
-	When I ran shotgun, I have encountered an error: loaderror: cannot load such file -- sinatra/flash. 
-	I have google it, no such error was encountered before. I found a post had loaderror with other file. And according to the messages, after update the Gemfile to include the specific gem that flaged the loaderror, then shotgun could run smoothly.
+
+	after all the basic steps were completed, then I ran shotgun, I had encountered an error: loaderror: cannot load such file -- sinatra/flash. 
+	I googled this error,  no this particular error was posted. 
+	I found a post had loaderror with other file. According to this post, after update the Gemfile to include the specific gem that flaged the loaderror, then shotgun could run smoothly.
 	I add "gem 'sinatra-flash' into the Gemfile, save it, and ran shotgun, it works as well. 
