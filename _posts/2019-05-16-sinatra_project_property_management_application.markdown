@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Project : Property Management application"
-date:       2019-05-17 01:28:50 +0000
+date:       2019-05-16 21:28:51 -0400
 permalink:  sinatra_project_property_management_application
 ---
 
@@ -57,7 +57,7 @@ There are the following:
           - new
           - show
 
-The steps to implement this project:
+## The steps to implement this project:
 
 
 Learned from the mistake
