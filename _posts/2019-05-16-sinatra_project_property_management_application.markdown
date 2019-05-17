@@ -42,15 +42,14 @@ There are the following:
 * Models
      *user: user_name, email, password, is_admin
 		 *property: name, address, lease_starting_date, lease_ending_date, secuirty_deposit, rent, user_id
-		 *work_log: work_name, date, description, property_id
 		 
 		 user manages many properties
 		 property is managed by a user
 			
 * Views
    - users:
-          -  login
-          -  new
+          -  login => for the registered user to log in to this app
+          -  new => sign up as new user
     - properties:
           - edit
           - index
