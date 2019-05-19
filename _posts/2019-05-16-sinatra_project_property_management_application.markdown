@@ -16,20 +16,20 @@ There are the following:
 	     - index.erb link to signup or login page
 	    
 	 *UserController
-* 	     -get '/signup'
-* 			 -post '/signup'
-* 			 -get '/login'
-* 			 -post '/login'
-* 			 -get'/logout'
+        * 	     get '/signup'
+        * 			 post '/signup'
+        * 			 get '/login'
+        * 			 post '/login'
+        * 			 get'/logout'
 			 
 	 *PropertyController
-* 	     - get '/properties'
-* 			 - get 'properties/new'
-* 			 - post 'properties'
-* 			 - get 'properties/:id/edit
-* 			 - patch '/properties/:id
-* 			 - get '/properties/:id
-* 			 - delete '/properties/:id
+       * 	     get '/properties'
+       * 			 get 'properties/new'
+       * 			 post 'properties'
+       * 			 get 'properties/:id/edit
+       * 			 patch '/properties/:id
+       * 			 get '/properties/:id
+       * 			 delete '/properties/:id
 	     
 * Models => the interface with database
      *user: user_name, email, password, is_admin
