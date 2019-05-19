@@ -10,7 +10,7 @@ permalink:  sinatra_project_property_management_application
 
 This project will be implemented in Sinatra Web framework with MVC application
 There are the following:
-* Controllers
+* Controllers => all the routes are defined in the contorllers class, and the helper functions
 
    *ApplicationController
 	     - index.erb link to signup or login page
@@ -19,8 +19,8 @@ There are the following:
 	     -get '/signup'
 			 -post '/signup'
 			 -get '/login'
-			 -post '/login
-			 -get'/logout
+			 -post '/login'
+			 -get'/logout'
 			 
 	 *PropertyController
 	     - get '/properties'
@@ -30,23 +30,15 @@ There are the following:
 			 - patch '/properties/:id
 			 - get '/properties/:id
 			 - delete '/properties/:id
-			 
-	 *WorkLogController
-	     - get '/worklogs'
-	     - get 'worklogs/new'
-	     - post 'worklogs'
-	     - get 'worklogs/:id/edit
-	     - patch 'worklogs/:id'
-	     - delete 'worklogs/:id'
 	     
-* Models
+* Models => the interface with database
      *user: user_name, email, password, is_admin
 		 *property: name, address, lease_starting_date, lease_ending_date, secuirty_deposit, rent, user_id
 		 
 		 user manages many properties
 		 property is managed by a user
 			
-* Views
+* Views => render the web pages to display the result of requests from users
    - users:
           -  login => for the registered user to log in to this app
           -  new => sign up as new user
@@ -55,9 +47,6 @@ There are the following:
           - index
           - new
           - show
-
-The steps to implement this project:
-
 
 Learned from the mistake
 1. session
