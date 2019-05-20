@@ -12,28 +12,28 @@ This project will be implemented in Sinatra Web framework with MVC application
 There are the following:
 * Controllers => all the routes are defined in the contorllers class, and the helper functions
 
-   *ApplicationController
+   * ApplicationController
 	     - index.erb link to signup or login page
 	    
-	 *UserController
-        * 	     get '/signup'
-        * 			 post '/signup'
-        * 			 get '/login'
-        * 			 post '/login'
-        * 			 get'/logout'
+	 * UserController
+        -  get '/signup'
+        -  post '/signup'
+        -  get '/login' 
+        -  post '/login'
+        -  get'/logout'
 			 
-	 *PropertyController
-       * 	     get '/properties'
-       * 			 get 'properties/new'
-       * 			 post 'properties'
-       * 			 get 'properties/:id/edit
-       * 			 patch '/properties/:id
-       * 			 get '/properties/:id
-       * 			 delete '/properties/:id
+	 * PropertyController
+       - 	get '/properties'
+       - 	get 'properties/new'
+       - 	post 'properties'
+       - 	get 'properties/:id/edit
+       - 	patch '/properties/:id
+       - 	get '/properties/:id
+       - 	delete '/properties/:id
 	     
 * Models => the interface with database
-     *user: user_name, email, password, is_admin
-		 *property: name, address, lease_starting_date, lease_ending_date, secuirty_deposit, rent, user_id
+     *  user: user_name, email, password, is_admin
+		 *  property: name, address, lease_starting_date, lease_ending_date, secuirty_deposit, rent, user_id (this is the foreign key)
 		 
 		 user manages many properties
 		 property is managed by a user
@@ -48,7 +48,7 @@ There are the following:
           - new
           - show
 
-Learned from the mistake
+Learned from the mistakes
 1. session
      - if "session_secret" did not set or had typo, the newly added keys in the session can not be access in the other routes
      - since the session is enabled, and session_secret is set, and the class User has macro : has_secure_password. When you save the user data without the password, this data record won't be able to be saved into the database
