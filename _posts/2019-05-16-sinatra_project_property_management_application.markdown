@@ -63,3 +63,5 @@ Learned from the mistakes
 	I googled this error,  no this particular error was posted. 
 	I found a post had loaderror with other file. According to this post, after update the Gemfile to include the specific gem that flaged the loaderror, then shotgun could run smoothly.
 	I add "gem 'sinatra-flash' into the Gemfile, save it, and ran shotgun, it works as well. 
+	
+	[youtube](https://youtu.be/g-1Xvx6fJlM)
