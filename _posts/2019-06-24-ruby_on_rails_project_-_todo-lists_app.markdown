@@ -11,13 +11,18 @@ For this project, we need to implement login/signup and using 3rd party to log i
 learn from my mistake:
 1. setting up Github link in. I follow the instruction from [Devise Authentication Gide with Git Hub OmniAuth For Rails Application](https://medium.com/@salmaeng71/devise-authentication-guide-with-github-omniauth-for-rails-application-220aa52d5b82) to set up the log in via github.
    *   set up the github ommiAuth
-  *  	 copy the clientID and Client secret from github to config/initializers/devise.rb in config.omniauth :github, "client ID", "client secret"
+   *   copy the clientID and Client secret from github to config/initializers/devise.rb in config.omniauth :github, "client ID", "client secret"
+   *   create a callback_controller inherit from Devise::OmniauthCallbacksController
+   *   add additonal column: provider, and uid into the users table
+   *   in model : user add "omniauthable" under devise, and def a class method from_omniauth(auth), this method is called by callbacks_controller to authonticate the user from github
+   *   in the login page, add the link to the github log in route
+  *  	 
    *set up the github omniAuth
 	 *copy the clientID and Client secret from github to config/initializers/devise.rb in config.omniauth :github, "client ID", "client secret"
-	 *create a callback_controller inherit from Devise::OmniauthCallbacksController
-	 *add additonal column: provider, and uid into the users table
-	 *in model : user add "omniauthable" under devise, and def a class method from_omniauth(auth), this method is called by callbacks_controller to authonticate the user from github
-	 *in the login page, add the link to the github log in route
+	 *
+	 *
+	 *
+	 *
 	 
 After complete all the settings, and run the application, I got an error: The action 'github' could not be found for Devise::OmniauthCallbacksController
 By googling this error message, I found out:
