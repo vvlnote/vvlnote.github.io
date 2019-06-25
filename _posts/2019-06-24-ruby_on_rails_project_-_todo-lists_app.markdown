@@ -16,15 +16,8 @@ learn from my mistake:
    *   add additonal column: provider, and uid into the users table
    *   in model : user add "omniauthable" under devise, and def a class method from_omniauth(auth), this method is called by callbacks_controller to authonticate the user from github
    *   in the login page, add the link to the github log in route
-  *  	 
-   *set up the github omniAuth
-	 *copy the clientID and Client secret from github to config/initializers/devise.rb in config.omniauth :github, "client ID", "client secret"
-	 *
-	 *
-	 *
-	 *
 	 
-After complete all the settings, and run the application, I got an error: The action 'github' could not be found for Devise::OmniauthCallbacksController
+###After complete all the settings, and run the application, I got an error: The action 'github' could not be found for Devise::OmniauthCallbacksController
 By googling this error message, I found out:
 since the program still looking for the default callback controller (OmniauthCallbacksController), and not the one you specify as callbacks_controller. 
 to fix this issue, you need to update the routes.rb file to make the program to refer to your callback controller.
@@ -34,9 +27,10 @@ devise_for: users, :controllers => {registrations: 'registrations', omniauth_cal
 after this update, the program can be login by github account.
 
 2. use scope.
-    * scope is considered as a Class methods, it is not an instance method. 
-       I previous delclare it as an instance method, and I kept on getting the errors. After google it, I understood that scope should be an class method. and it can be used to get the right objects from the database.
-    *for my rails project, I need to get all the items from a particular list. my scope is delcared as following:
+    *  scope is considered as a Class methods, it is not an instance method. 
+         previous delclare it as an instance method, and I kept on getting the errors. After google it, I understood that scope should be an class method. and it can be used to get the right objects from the database.
+    *  for my rails project, I need to get all the items from a particular list. my scope is delcared as following:
       scope :get_list_items_of, ->(list) { where("list_id == ?", list.id)}
 			and it can be called as a class method. 
+
 
