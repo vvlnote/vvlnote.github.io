@@ -5,7 +5,7 @@ date:       2019-06-24 20:23:11 -0400
 permalink:  ruby_on_rails_project_-_todo-lists_app
 ---
 
-## this is my first rails project. 
+## This is my first rails project. 
 For this project, we need to implement login/signup and using 3rd party to log in, here, I use github account to log in.
 
 learn from my mistake
