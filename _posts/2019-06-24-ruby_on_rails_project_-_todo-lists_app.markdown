@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ruby on Rails project - todo-lists app"
-date:       2019-06-25 00:23:10 +0000
+date:       2019-06-24 20:23:11 -0400
 permalink:  ruby_on_rails_project_-_todo-lists_app
 ---
 
