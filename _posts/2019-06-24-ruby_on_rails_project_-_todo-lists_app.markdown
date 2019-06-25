@@ -10,8 +10,6 @@ For this project, we need to implement login/signup and using 3rd party to log i
 
 learn from my mistake:
 1. setting up Github link in. I follow the instruction from [Devise Authentication Gide with Git Hub OmniAuth For Rails Application](https://medium.com/@salmaeng71/devise-authentication-guide-with-github-omniauth-for-rails-application-220aa52d5b82) to set up the log in via github.
-
-2. Scope usage
    *   set up the github ommiAuth
    *   copy the clientID and Client secret from github to config/initializers/devise.rb in config.omniauth :github, "client ID", "client secret"
    *   create a callback_controller inherit from Devise::OmniauthCallbacksController
@@ -28,7 +26,7 @@ devise_for: users, :controllers => {registrations: 'registrations', omniauth_cal
 
 after this update, the program can be login by github account.
 
-2.
+2. Scope usage
     *  scope is considered as a Class methods, it is not an instance method. 
          previous delclare it as an instance method, and I kept on getting the errors. After google it, I understood that scope should be an class method. and it can be used to get the right objects from the database.
     *  for my rails project, I need to get all the items from a particular list. my scope is delcared as following:
