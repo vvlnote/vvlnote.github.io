@@ -22,11 +22,31 @@ I have gotten a better understaining about this project structure:
 * The files you implemented under controller of  the Rails project, need to set up to allow request to get the data in JSON format
 * You are not using JavaScript to fetch / .get () to access database directly, you pass in the URL that listed in the routes, and when the controller receive the request,  the code you implemented in the controller will get the data via model, and return back to fetch()/.get().
 * The same as create a new record.  
+
 Advace: (not in the requirement)
 * Add the new list items into the list
 * Cross out the completed items
 * Delete the not needed items
 
 what I learned: 
+
+* Duplicate the respository
+   This assignment is based on the previous Rails project, and  extend to  JavaScript and JSON API. So the first thing is I need to duplicate the Rails project respositor to a new respository. So I can keep Rails project respository untauched.
+	 First, I tried to fork the rails project, however, since this project is resident in my account, so the fork is not working this way.
+	 There is a way to mirroring (duplicating) a respository. and the followings are the steps:
+1. 	 In terminal, create a bared clode of the respository:
+       ex:  in terminal: type
+			 git clone --bare https://github.com/exampleuser/old-repository.git
+2. 	 Mirror-push to the new respository
+       ex:
+			 cd old-repository.git
+       git push --mirror https://github.com/exampleuser/new-repository.git
+3. 	 Remove the temporary local respository you created in step 1
+       ex:
+			 cd ..
+       rm -rf old-repository.git
+4. 	 You can start to work on your new respository.
+       In your new respository, all the logs from the old repository will be copied into this new repository
+
 
 * The main difference between the datalist and Select elements is the ability to enter a value not included in the option list. The datalist allows the user to enter any value, assuming it meets validation criteria, and the select element restricts values to those in the option list.
