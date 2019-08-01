@@ -13,9 +13,9 @@ However, for this project, how can I achieve thees requirement using the existin
 
 After I review the following videoes:
 
-[get data from Rails application](http://)https://www.youtube.com/watch?v=oHPM0ekV7zQ
+[get data from Rails application]((http://)https://www.youtube.com/watch?v=oHPM0ekV7zQ)
 
-[post data to reails model, and get the new data back](http://)https://www.youtube.com/watch?v=Yd0nH9CWWfo&amp=&feature=youtu.be
+[post data to reails model, and get the new data back]((http://)https://www.youtube.com/watch?v=Yd0nH9CWWfo&amp=&feature=youtu.be)
 
 I have gotten a better understaining about this project structure:
 * the routes that laid out from Rails project is where the URL that you passed into fetch() or AJSX.get() get the JSON data. 
