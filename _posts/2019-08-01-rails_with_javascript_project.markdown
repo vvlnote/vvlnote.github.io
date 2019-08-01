@@ -36,16 +36,15 @@ what I learned:
 	 There is a way to mirroring (duplicating) a respository. and the followings are the steps:
 1. 	 In terminal, create a bared clode of the respository:
        ex:  in terminal: type
-			 git clone --bare https://github.com/exampleuser/old-repository.git
+			 `<git clone --bare https://github.com/exampleuser/old-repository.git>`
 2. 	 Mirror-push to the new respository
        ex:
-			 `<
-			 cd old-repository.git
-       git push --mirror https://github.com/exampleuser/new-repository.git>`
+			 `<cd old-repository.git>`
+       `<git push --mirror https://github.com/exampleuser/new-repository.git>`
 3. 	 Remove the temporary local respository you created in step 1
        ex:
-			 cd ..
-       rm -rf old-repository.git
+			 `<cd ..>`
+       `<rm -rf old-repository.git>`
 4. 	 You can start to work on your new respository.
        In your new respository, all the logs from the old repository will be copied into this new repository
 
