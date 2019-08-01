@@ -21,7 +21,11 @@ I have gotten a better understaining about this project structure:
 * the routes that laid out from Rails project is where the URL that you passed into fetch() or AJSX.get() get the JSON data. 
 * The files you implemented under controller of  the Rails project, need to set up to allow request to get the data in JSON format
 * You are not using JavaScript to fetch / .get () to access database directly, you pass in the URL that listed in the routes, and when the controller receive the request,  the code you implemented in the controller will get the data via model, and return back to fetch()/.get().
-* the same as create a new record.  
+* The same as create a new record.  
+Advace: (not in the requirement)
+* Add the new list items into the list
+* Cross out the completed items
+* Delete the not needed items
 
 what I learned: 
 
