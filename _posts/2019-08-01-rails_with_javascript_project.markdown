@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails with JavaScript project"
-date:       2019-08-01 17:30:24 +0000
+date:       2019-08-01 13:30:24 -0400
 permalink:  rails_with_javascript_project
 ---
 
@@ -12,8 +12,8 @@ In the Rails application, controller taking care of the APIs, model taking care 
 However, for this project, how can I achieve thees requirement using the existing Rails structure. 
 
 After I review the following videoes:
-https://www.youtube.com/watch?v=oHPM0ekV7zQ
-https://www.youtube.com/watch?v=Yd0nH9CWWfo&amp=&feature=youtu.be
+[get data from Rails application](http://)https://www.youtube.com/watch?v=oHPM0ekV7zQ
+[post data to reails model, and get the new data back](http://)https://www.youtube.com/watch?v=Yd0nH9CWWfo&amp=&feature=youtu.be
 
 I have gotten a better understaining about this project structure:
 * the routes that laid out from Rails project is where the URL that you passed into fetch() or AJSX.get() get the JSON data. 
