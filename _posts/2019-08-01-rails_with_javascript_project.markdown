@@ -39,8 +39,9 @@ what I learned:
 			 git clone --bare https://github.com/exampleuser/old-repository.git
 2. 	 Mirror-push to the new respository
        ex:
+			 `<
 			 cd old-repository.git
-       git push --mirror https://github.com/exampleuser/new-repository.git
+       git push --mirror https://github.com/exampleuser/new-repository.git>`
 3. 	 Remove the temporary local respository you created in step 1
        ex:
 			 cd ..
