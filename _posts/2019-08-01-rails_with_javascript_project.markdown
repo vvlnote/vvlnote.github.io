@@ -50,3 +50,12 @@ what I learned:
 
 
 * The main difference between the datalist and Select elements is the ability to enter a value not included in the option list. The datalist allows the user to enter any value, assuming it meets validation criteria, and the select element restricts values to those in the option list.
+* Disable forgery protection on controller.
+   I did not use the form_for to generate my submit form, so when I try to do fetch with method: post, I always got the following error:  
+	 422 (Unprocessable Entity).
+	 By looking at the explaination from the  internet, it seems that the server understands the content type of the request eneity, and by looking at the terminal where rails server is running, I have seen another error:   
+	 ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+	 
+	 I thought it is due to that I did not pass in the authentication code like if I did form_for. for the short term solution, I tried to disable the forgery protection on the application_controller.  be aware, this is not a good practice to write the code, since it would expose your data in the internet, and everyone can access it, manipulate it. 
+	 for now, I put the following code in the application_controller.rb
+	 skip_before_action :verify_authenticity_token, this will skip the checking.
