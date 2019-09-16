@@ -38,15 +38,22 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
    -  each table has  
        -  order button
        -  checkout button
-       -  table available/unavailable
+       -  table available/unavailable  
+   - kitech button  
+      - will inform the kitech helpers to claim the needed ingredients to clean up  
+   - inventory button  
+      - will inform the mangers at least one ingredient is lower than the alerted low amount 
+      
  
 - kitchen  
    - list all the ingredients that need to be cleaned for making the ordered dishes  
-   - list all the dishes for this period  
-  
-  
+   - list the ordered dishes for chefs to prepare  
+ 
 
 - inventory
+  - list the remaining ingredients in real time
+  - if the ingredients are lower than alerted low amount, manager can submit the order form to restack the ingredients  
+ 
   
   
 
