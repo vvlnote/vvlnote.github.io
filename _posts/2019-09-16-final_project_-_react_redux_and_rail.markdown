@@ -14,11 +14,26 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
 ### Database:
 - ingredients: this is for tracking the major ingredients that used for making dishes   
        - id : assigned by database when a new record is created
-       - 
+       - name
+       - unit cost
+       - available amount
+       - alert low amount
+
+- dishes: this is the manu of the dishes this cafe provides
+      - name:
+      - price
+ 
+- dish-ingredients : the major ingredients for each dish
+     - dish_id
+     - ingredient_id
+     - usage
   
-** id: assigned by database
-dish: this is the manu of the dishes this cafe provides
-dish-ingredients : the major ingredients for each dish
-order: keep tracking the order of each table, and for the receipt
+- orders: keep tracking the order of each table, and for the receipt
+     - id
+     - table#
+     - total amount
+     - completed
+  
+  
 
 
