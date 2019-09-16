@@ -13,26 +13,24 @@ Time is flying, the couses are all finished, time for us to put all our knowledg
 This project is helping a small cafe (not as formal as restaurant) to track the food ingredients consummation.
 ### Database:
 - ingredients: this is for tracking the major ingredients that used for making dishes   
-       - id : assigned by database when a new record is created
-       - name
-       - unit cost
-       - available amount
-       - alert low amount
+       - name  
+       - unit cost  
+       - available amount  
+       - alert low amount  
 
 - dishes: this is the manu of the dishes this cafe provides
-      - name:
-      - price
+      - name:  
+      - price  
  
 - dish-ingredients : the major ingredients for each dish
-     - dish_id
-     - ingredient_id
-     - usage
+     - dish_id  
+     - ingredient_id  
+     - usage  
   
 - orders: keep tracking the order of each table, and for the receipt
-     - id
-     - table#
-     - total amount
-     - completed
+     - table#  
+     - total amount  
+     - completed  
   
   
 
