@@ -12,15 +12,15 @@ Time is flying, the couses are all finished, time for us to put all our knowledg
 ## Project - 
 This project is helping a small cafe (not as formal as restaurant) to track the food ingredients consummation.
 ### Database:
-- ingredients: this is for tracking the major ingredients that used for making dishes     
+- ingredients: this is for tracking the major ingredients that used for making dishes       
        - name     
        - unit cost     
        - available amount    
        - alert low amount    
 
-- dishes: this is the manu of the dishes this cafe provides    
-      - name  
-      - price    
+- dishes: this is the manu of the dishes this cafe provides        
+      - name    
+      - price      
  
 - dish-ingredients : the major ingredients for each dish  
      - dish_id    
