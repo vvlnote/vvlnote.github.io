@@ -30,7 +30,23 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
 - orders: keep tracking the order of each table, and for the receipt  
      - table#    
      - total amount    
-     - completed    
+     - completed   
+ 
+### router:
+- home
+   -  display the tables  
+   -  each table has  
+       -  order button
+       -  checkout button
+       -  table available/unavailable
+ 
+- kitchen  
+   - list all the ingredients that need to be cleaned for making the ordered dishes  
+   - list all the dishes for this period  
+  
+  
+
+- inventory
   
   
 
