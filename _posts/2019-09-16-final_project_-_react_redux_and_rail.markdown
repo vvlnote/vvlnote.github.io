@@ -55,7 +55,7 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
       
  
 - kitchen  
-   - list all the ingredients that need to be cleaned for making the ordered dishes  
+   - list all the ingredients that need to be prepared for making the ordered dishes  
    - list the ordered dishes for chefs to prepare  
  
 
