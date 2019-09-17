@@ -15,12 +15,14 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
 - ingredients: this is for tracking the major ingredients that used for making dishes       
      - name     
      - unit cost     
+     - consumption
      - available amount    
      - alert low amount    
 
 - dishes: this is the manu of the dishes this cafe provides        
      - name    
-     - price      
+     - price  
+     - ordered times    
  
 - dish-ingredients : the major ingredients for each dish  
      - dish_id    
@@ -31,6 +33,13 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
      - table#    
      - total amount    
      - completed   
+
+- order-dishes:    
+    - order_id   
+    - dish_id
+		
+		
+		
  
 ### router:
 - home
