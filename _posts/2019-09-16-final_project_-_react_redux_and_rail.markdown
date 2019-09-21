@@ -82,8 +82,8 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
 					},
 			]  
 - orders: [  
-         { table#:
-				    ordered_dish: [ name, ..] . 
+         { table#:  
+				    ordered_dish: [ name, ..] 
 				 },  
-			]  
+			]    
 	
