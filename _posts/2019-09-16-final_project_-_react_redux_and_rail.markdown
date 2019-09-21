@@ -16,15 +16,15 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
      - name     
      - unit cost     
      - consumption
-     - available amount    
-     - alert low amount    
+     - available_amount    
+     - low_amount_alert .     
 
 - dishes: this is the manu of the dishes this cafe provides        
      - name    
      - price  
-     - ordered times    
+     - total_orders     
  
-- dish-ingredients : the major ingredients for each dish  
+- dish_ingredients : the major ingredients for each dish  
      - dish_id    
      - ingredient_id    
      - usage    
@@ -65,5 +65,25 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
  
   
   
-
-
+### state used in the project:
+- dishes: [  
+         { name:  
+				   price:  
+					 ingredients: [  
+					         { name:  
+									   usage:  
+										 }  
+				     },  
+				]  
+- ingredients: [  
+         { name:  
+				   available_amount:  
+					 low_amount_alert:  
+					},
+			]  
+- orders: [  
+         { table#:
+				    ordered_dish: [ name, ..] . 
+				 },  
+			]  
+	
