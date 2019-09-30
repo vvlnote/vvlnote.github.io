@@ -28,15 +28,13 @@ This project is helping a small cafe (not as formal as restaurant) to track the 
      - dish_id    
      - ingredient_id    
      - usage    
-  
+
+###state that kept inside the redux store, those data is not stored in the DB. 
 - orders: keep tracking the order of each table, and for the receipt  
      - table#    
-     - total amount    
-     - completed   
+     - dishName
+     - price   
 
-- order-dishes:    
-    - order_id   
-    - dish_id
 		
 		
 		
