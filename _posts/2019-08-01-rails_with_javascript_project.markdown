@@ -34,7 +34,7 @@ what I learned:
    This assignment is based on the previous Rails project, and  extend to  JavaScript and JSON API. So the first thing is I need to duplicate the Rails project respositor to a new respository. So I can keep Rails project respository untauched.
 	 First, I tried to fork the rails project, however, since this project is resident in my account, so the fork is not working this way.
 	 There is a way to mirroring (duplicating) a respository. and the followings are the steps:
-1. 	 In terminal, create a bared clode of the respository:  
+1. 	 In terminal, create a bared clone of the respository:  
        ex:  in terminal type  
 			 `<git clone --bare https://github.com/exampleuser/old-repository.git>`
 2. 	 Mirror-push to the new respository  
