@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Basic Traversal implementation of Binary Tree in Javascript"
-date:       2019-12-16 01:31:21 +0000
+date:       2019-12-15 20:31:22 -0500
 permalink:  basic_traversal_implementation_of_binary_tree_in_javascript
 ---
 
@@ -184,7 +184,7 @@ displayPreOrderIterative() {
 			currentNode = currentNode.right;
 		}
 	}
-```
+```  
 
 ### PostOrder Traversal 
 Vist the left subtree first, then the right subtree, the last one visited is the root node.
