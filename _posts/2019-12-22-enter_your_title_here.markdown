@@ -6,8 +6,6 @@ permalink:  enter_your_title_here
 ---
 
 
-The content of your blog post goes here.
-
 In the linear data structure, there are 4 ways of implmentations:  
 * Array:  this is a random access data structure, where each elemement inside this array can be accessed directly and in O(1) time.   
 * Linked List:   this is a sequencial access data structure, where each element can be access only in particular order, i.e. strting from head of the linked list.   
