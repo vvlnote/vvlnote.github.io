@@ -81,7 +81,7 @@ There are two types of traversal:
   note: for better understanding each of the above methodologies, please refer to 
 	[Binary tree traversal](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/992/)
 	  
-
+   
   ### Preorder traversal
   Visit root node first, then left subtree, and right subtree.
    *   Recursive way:  
@@ -130,7 +130,7 @@ displayPreOrderIterative() {
 		}
 	}
 ```
-
+  
  ### Inorder Traversal  
  Visit left subtree first, then root node, the last is the right subtree.
  
