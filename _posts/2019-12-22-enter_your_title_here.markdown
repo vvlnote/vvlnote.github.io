@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Enter your title here"
-date:       2019-12-22 22:59:55 +0000
+title:      "Basic implemention of Queue and Stack in Javascript"
+date:       2019-12-22 17:59:56 -0500
 permalink:  enter_your_title_here
 ---
 
