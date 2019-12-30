@@ -6,7 +6,6 @@ permalink:  ruby_on_rail_api_works_with_postgresql_database_-_part_i_via_homebre
 ---
 
 
-The content of your blog post goes here.
 My original Ruby on Rail backend app connecting to default database sqlite3, however, the app encountered concurrency issues, if I update several data records at about 3 seconds appart, the database would be locked up, and the app will suffer data lost, and cause the database in incorrect stage. 
 
 So I would like to swich my database to PostgreSQL, it can handles concurrency data update better than sqlite3. 
