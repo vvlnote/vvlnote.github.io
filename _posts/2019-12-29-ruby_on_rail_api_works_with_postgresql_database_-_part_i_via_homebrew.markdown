@@ -44,7 +44,8 @@ Since I used brew to install PostgreSQL, I did not set up the password, and I am
 
      `createuser -P -d appname`  
 		 
-	   Note: 
+		 
+	  Note: 
     -	This is the place that I got stuck at first trial. When I created my Ruby on Rails app and connect to -database postgresql, and after all the migration files were created, and I tried to run rack db:migrate, the program complained that there is no connection to the PostgreSQL. and at that time I kept on trying and looking up internet to solve my issue, but I could not find the right method until I read  [How to Use PostgreSQL with Your Ruby on Rails Application on macOS](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos).   and this paragraph resolve my confusion:  I am confused by the password to access PostgreSQL service, and the password of the new role you created. 
             
 >  In PostgreSQL, roles can be used to organize permissions and authorization. When starting PostgreSQL with Homebrew, you will automatically have a superuser role created with your macOS username. In order to keep these superuser privileges separate from the database instance you use for your Rails application, in this step you will create a new role with less access.
@@ -102,7 +103,7 @@ Note: for the detail information , please refer to [How to Use PostgreSQL with Y
              *  `TABLE tablename;`  
              *   `SELECT * FROM ingredients;`  
 
-            Note: do not forget ";" at the end of the commend.
+            Note: do not forget ";" at the end of the command.
 				
          
 				 
