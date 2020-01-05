@@ -10,9 +10,9 @@ My original Ruby on Rail backend app connecting to default database sqlite3, how
 
 So I would like to swich my database to PostgreSQL, it can handles concurrency data update better than sqlite3. 
 
-Since I used brew to install PostgreSQL, I did not set up the password, and I am not able to setup the database that can works with my app. so I tried to reinsall it from [PostgreSQL download site](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).  However, I was not able to succeed to intalling PostgreSQL by following this document. So for this post, I still used brew to install it.  
+Since I used brew to install PostgreSQL, I did not set up the password, and I am not able to setup the database that can works with my app. so I tried to reinsall it from [PostgreSQL download site](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).  However, I was not able to succeed to to link PostgreSQL to Ruby on Rails app. So for this post, I still used brew to install it.  
 
-I will go back to install from PostgresSQL from the download site later on.
+I will go back to install from PostgresSQL from the download site and try to link it with Ruby on Rails app  later on.  
 
 
 ### Install PostgreSQL via Homebrew on MacOS  
