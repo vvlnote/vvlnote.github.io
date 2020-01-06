@@ -29,6 +29,7 @@ By default, PostgreSQL installation comes with pgAdmin 4, if you download Postgr
 Note:  
  * 	replace 'password' with the password that you like to assign to superuser postgres.
  * 	do not forget to put ; at the end of the command.   
+ 
 
 #### Install pgAdmin 4  
 
