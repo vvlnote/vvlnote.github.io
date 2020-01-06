@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Set up pgAdmin 4 to connect PostgreSQL server, and view data via pgAdmin 4"
-date:       2020-01-06 01:48:54 +0000
+date:       2020-01-05 20:48:55 -0500
 permalink:  set_up_pgadmin_4_to_connect_postgresql_server_and_view_data_via_pgadmin_4
 ---
 
@@ -26,9 +26,9 @@ By default, PostgreSQL installation comes with pgAdmin 4, if you download Postgr
 
   `ALTER USER postgres WITH PASSWORD 'password';`  
 	
-	Note:
-     * 	replace 'password' with the password that you like to assign to superuser postgres.
-     * 	do not forget to put ; at the end of the command.   
+Note:  
+ * 	replace 'password' with the password that you like to assign to superuser postgres.
+ * 	do not forget to put ; at the end of the command.   
 
 #### Install pgAdmin 4  
 
