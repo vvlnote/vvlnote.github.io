@@ -20,6 +20,7 @@ For example: for a  3x3 magic square, the sum of each row, column and main diago
 So far, I have found 2 ways to create a 3x3 Magic Square by depeding on where to put 1 as a starting point in the Magic Square.
 
 #### Place the number 1 at the center cell of top row (row = 0, colum = n/2)  
+
 Algorithm:  
 * Start at the middle of the top row, and with number 1.  
 * Insert number n into the current grid position.  
@@ -73,7 +74,9 @@ Please refer to the following code:
 		i += 1;
 	}
 ```
-#### Place the number 1 at the (n/2, n-1). In 3x3 Magic Square, place the number 1 at (row = 1, col = 2).
+#### Place the number 1 at the (n/2, n-1). In 3x3 Magic Square, place the number 1 at (row = 1, col = 2)  
+
+
 Algorithm:  
 * Start at the position (n/2, n-1), and with number 1.  
 * Insert number n into the current grid position.  
