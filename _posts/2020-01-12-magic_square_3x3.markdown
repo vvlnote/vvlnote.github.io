@@ -9,17 +9,17 @@ permalink:  magic_square_3x3
 While I was practicing my coding with [HackerRank](https://www.hackerrank.com/domains), I encounter a JavaScript coding problem, it is [Forming a Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem).  In the post, I will focus on the 3x3 Magic Square. This is the constrain of this coding problem. 
 
 
-### Definition  
+## Definition  
    A magic square is an N×N grid of distinct positive numbers (from 1 to n^2) in which the entries in each row, column and main diagonal sum to the same number (equal to N(N^2+1)/2).  And this number is called the **magic constant**.
 
 For example: for a  3x3 magic square, the sum of each row, column and main diagonal is 15.  The numbers in this magic square is from 1 to 9, there is no duplicated numbers. 
 
 ![MagicSquare 3x3](https://www.101computing.net/wp/wp-content/uploads/magic-square-3x3.png)    
 
-### Algorithm to create a Magic Square 3x3
+## Algorithm to create a Magic Square 3x3
 So far, I have found 2 ways to create a 3x3 Magic Square by depeding on where to put 1 as a starting point in the Magic Square.
 
-#### Place the number 1 at the center cell of top row (row = 0, colum = n/2)  
+### Place the number 1 at the center cell of top row (row = 0, colum = n/2)  
 
 Algorithm:  
 * Start at the middle of the top row, and with number 1.  
@@ -74,7 +74,7 @@ Please refer to the following code:
 		i += 1;
 	}
 ```
-#### Place the number 1 at the (n/2, n-1). In 3x3 Magic Square, place the number 1 at (row = 1, col = 2)  
+### Place the number 1 at the (n/2, n-1). In 3x3 Magic Square, place the number 1 at (row = 1, col = 2)  
 
 
 Algorithm:  
