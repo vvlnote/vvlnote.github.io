@@ -126,4 +126,5 @@ Please refer to the following code:
 	}
 ```
 
+If you are interested in the history of Magic Square, there is a Wiki Page [Magic Squrare](https://en.wikipedia.org/wiki/Magic_square) with detial information about what is Magic Square and the history of Magic Square. Hopefully, you can enjoy it.
 
