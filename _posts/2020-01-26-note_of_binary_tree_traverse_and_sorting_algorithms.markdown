@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Note of binary tree traverse and sorting algorithms"
-date:       2020-01-27 01:04:19 +0000
+date:       2020-01-26 20:04:20 -0500
 permalink:  note_of_binary_tree_traverse_and_sorting_algorithms
 ---
 
