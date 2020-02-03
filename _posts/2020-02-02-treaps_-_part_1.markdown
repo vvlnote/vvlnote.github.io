@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Treaps ?! - Part 1"
-date:       2020-02-03 00:49:31 +0000
+date:       2020-02-02 19:49:31 -0500
 permalink:  treaps_-_part_1
 ---
 
@@ -23,7 +23,7 @@ Type 1 queries are represented as 1* i j* : Modify the given array by removing e
 
 Type 2 queries are represented as 2* i j* : Modify the given array by removing elements from *i* to *j* and adding them to the back.
 
-Your task is to simply print |A[1] - A[N]| of the resulting array after the execution of M queries followed by the resulting array.
+Your task is to simply print the absolute value of  A[1] - A[N] of the resulting array after the execution of M queries followed by the resulting array.
 
 Note While adding at back or front the order of elements is preserved.  
 
