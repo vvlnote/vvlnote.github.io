@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Treaps ?! - Part II"
-date:       2020-02-09 23:48:35 +0000
+date:       2020-02-09 18:48:36 -0500
 permalink:  treaps_-_part_ii
 ---
 
@@ -24,14 +24,14 @@ A binary heap has the following properties:
 * The ordering can be of following two types:  
     + The *min-heap property*: the value of each node is greater than or equal to the value of its parent, with the minimum-value element at the root.  
     + The *max-heap property*: the value of each node is less than or equal to the value of its parent, with the maximum-value element at the root.  
-* A heap** is not a sorted structure**. There is no particulare relationship among nodes on any given level, even among the siblings.  
+* A heap *is not a sorted structure* . There is no particulare relationship among nodes on any given level, even among the siblings.  
 * A heap with N nodes always has O(log N) height due to it is a complete binary tree.  
 * A common use of a heap is to implement a priority queue.  
 
 
 
 Note:  
-**Priority Queue **  
+**Priority Queue**   
 It is an extension of Queue having the following properties:
 * Each element of the priority queue has an proprty associated with it.  
 * Elements are added to teh queue as per the priority.  
