@@ -83,6 +83,26 @@ If this is first time to use this website. You will encounter the following page
 ![Create New Clust](https://miro.medium.com/max/1760/0*cjCFm2P8baJwgzMZ)
 
 
+I select the free program, and select the reginon. 
+
+The 2nd step, you need to set up some info the is needed.  
+
+![Connect to Cluster0](https://miro.medium.com/max/901/0*FTbUEi0MmEFQ8WyL)  
+
+Click on Add Your Current IP Address to put your IP address which is used to connect MongoDB.  
+You also need to create a MongoDB user, and the connection will contain this information in order to connect to MongoDB.   After you type in the user name, and password, you click on Create MongoDB User.  
+
+
+The 3rd step you can select what method you would use to connect to MongoDB, in my case, I select Connect Your Application.  
+
+![](https://miro.medium.com/max/1533/0*S3ICxNhoECtwePqg)
+
+The 4th step will provide you a connection string that you need to put into your application to connect to MongoDB via your application.  
+
+![](https://miro.medium.com/max/1529/0*N3_DR7tYkTvJN1jv)  
+
+Click on Copy button to copy the connection string, and add it to your application code.  
+
 
 
 
