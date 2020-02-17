@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Summary of setting up Express and MongoDB as Backend Server"
-date:       2020-02-17 01:07:26 +0000
+date:       2020-02-16 20:07:27 -0500
 permalink:  summary_of_setting_up_express_and_mongodb_as_backend_server
 ---
 
