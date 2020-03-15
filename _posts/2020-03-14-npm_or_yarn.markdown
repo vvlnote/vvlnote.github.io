@@ -13,8 +13,8 @@ note: npm is an acronym for *Node Package Manager.*
 
 ### A breif introducation of npm and yarn
 * **npm**  
-It is written by JavaScript and developed by Isaac Z. Schlueter on January 12, 2010.  
-* **yarn **  
+It is written by JavaScript and developed by Isaac Z. Schlueter on January 12, 2010.   
+*   **yarn**  
 It is written in JavaScript and developed and released by Facebook in October, 2016.  
 It is meat to replace the existing workflow for the npm client or othere package managers.  
 Facebook engineers attempt to permanently fix some consisitency, security, and performance issues that they   have experienced with npm as the size of codebase and staff grew, 
