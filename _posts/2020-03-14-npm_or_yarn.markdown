@@ -1,14 +1,14 @@
 ---
 layout: post
-title:      "npm or yarn"
-date:       2020-03-15 03:27:31 +0000
+title:      "npm -i  or yarn -add "
+date:       2020-03-14 23:27:32 -0400
 permalink:  npm_or_yarn
 ---
 
 
 Since I am continuing on learning new things about web development, I look up so many tech docs about new package, and new way to implmenet the Web app. Recently, I was trying to download the packages for my side project. I saw some engineers use  **npm -i** to download and install the needed packag, however, I saw a lots of engineer using **yarn add** to install the package. I am curious what are the difference between these two.  
 
-##### The most 2 popular package managers in the ecosystem as of today are **npm** and **yarn**.  
+The first thing I read is : The most 2 popular package managers in the ecosystem as of today are **npm** and **yarn**.  
 note: npm is an acronym for *Node Package Manager.*
 
 ### A breif introducation of npm and yarn
@@ -19,7 +19,7 @@ It is written in JavaScript and developed and released by Facebook in October, 2
 It is meat to replace the existing workflow for the npm client or othere package managers.  
 Facebook engineers attempt to permanently fix some consisitency, security, and performance issues that they   have experienced with npm as the size of codebase and staff grew, 
 
-### npm 
+### npm -i
 
 * Manage packages that are local dependencies of a particular project.  
    * in one comand, npm can install all the dependencies of a project through the **package.json** file.  
@@ -29,7 +29,7 @@ Facebook engineers attempt to permanently fix some consisitency, security, and p
 *   Requires network to install packages.  
 *   **npm -i** installs dependencies from the package.json file, and allow you to add new packages. 
 
-### yarn
+### yarn -add
 * It is a new CLI client that fetches modules from the npm registry.  
 * It generates yarn.lock file by default. This file is to avoid package version mis-matches, and exact installed version is recorded in this file.   Every time a module is added, yarn create (or update) a yarn.lock file.  This way you can gurantee antoher machine installs the exact same package, while still having a range tof allowed versions defined in package.json. 
 **Note**:  
@@ -39,7 +39,7 @@ Starting from npm version 5,  npm would generate **package.json** file and **pac
 
 
 ## Conclusion  
-After reading all the documents about yarn and npm, for myself, I have not gotten a chance to try out yarn at this moment. And the size of my side project is not that big, I did not need to install so many packages to work on, I properly will still use npm. However, for learning purpose, I will use yarn myself in the future to experience the differences. 
+After reading all the documents about yarn - add and npm -i, for myself, I have not gotten a chance to try out yarn at this moment. And the size of my side project is not that big, I did not need to install so many packages to work on, I properly will still use npm. However, for learning purpose, I will use yarn myself in the future to experience the differences. 
 
 
 
