@@ -31,7 +31,7 @@ Facebook engineers attempt to permanently fix some consisitency, security, and p
 
 ### yarn -add
 * It is a new CLI client that fetches modules from the npm registry.  
-* It generates yarn.lock file by default. This file is to avoid package version mis-matches, and exact installed version is recorded in this file.   Every time a module is added, yarn create (or update) a yarn.lock file.  This way you can gurantee antoher machine installs the exact same package, while still having a range tof allowed versions defined in package.json. 
+* It generates yarn.lock file by default. This file is to avoid package version mis-matches, and exact installed version is recorded in this file.   Every time a module is added, yarn create (or update) a yarn.lock file.  This way you can gurantee antoher machine installs the exact same package, while still having a range tof allowed versions defined in package.json.   
 **Note**:  
 Starting from npm version 5,  npm would generate **package.json** file and **package-lock.json** file by default. **package-lock.json** file servers the same purpose of  **yarn.lock** file.  
 * Parallel installation. **yarn**  installs package in parallel, it makes the package installation faster than npm installation since it is serial installation.  When the package has big amount of dependencies that need to be installed, the speed difference will be shown significantly.  
