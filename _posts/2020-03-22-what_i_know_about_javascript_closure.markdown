@@ -1,21 +1,21 @@
 ---
 layout: post
 title:      "What I know about JavaScript Closure"
-date:       2020-03-23 01:27:39 +0000
+date:       2020-03-22 21:27:40 -0400
 permalink:  what_i_know_about_javascript_closure
 ---
 
 
-Recently, I am trying to work on the google map, to have google map display in my project. I used react-google-maps package. By reading the [spec](https://www.npmjs.com/package/react-google-maps) of react-google-maps, there is a term "**HOC**". It stands for **Higher-Order Component**. and the concept of it is derived from "**HOF**", it stands for **Higher-Order Function**.   I have heard this term before, and I would like to know what is it, and what is the advantage of using HOF. 
+Recently, I am trying to work on the google map, to have google map display in my project. I used react-google-maps package. By reading the [spec](https://www.npmjs.com/package/react-google-maps) of react-google-maps, there is a term "**HOC**". It stands for **Higher-Order Component**. and the concept of it is derived from "**HOF**", it stands for **Higher-Order Function**.   I have heard this term before, and I would like to know what is it.  
 
-#### First class function
-In JavaScript,  functions are first class functions, they can be treated like any other variables. 
+### First class function
+In JavaScript,  functions are first class functions, they can be treated like any oth er variables. 
 A first class function can be:  
 * passed as an argument to other functions => we call this function is a callback funtion.
 * returned by another functions
 * assgined as a value to a variable.
 
-#### Higher Order Function 
+### Higher Order Function 
 **It is a function that takes a function as an argument, or returns a function.**  
 We already encoutered a lot of functions that take a function/functions as arguments to other functions.
 
