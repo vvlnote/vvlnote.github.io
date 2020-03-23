@@ -65,12 +65,8 @@ clickMe button has been click 3
 From  the output, 1, 2, 3 are the value of count, and clicMe button is the parameter that I passed in when I call ClicMe. 
 Even click is called outside of clickMe function, but it still can access count, and msg from it outer environment enclosed inside of its parent function (i.e. clickMe). 
 
+Next post will discuss the use-cases for Closure. 
 
-#### use-cases for closures  
-* In JavaScript, closures are the primary mechanism used to enable data privacy.  
-Please refer to the code in the previous section. msg, and counter are the private variables, which can not be accessed by outside function, only click (which is presented the anonymous function) can access it, and display the result. 
-* Closures can be used to create stateful functions whose return values may be influenced by their internal state.  
-* In functional programming, closures are frequently used for partial application & curring. 
 
 
 
