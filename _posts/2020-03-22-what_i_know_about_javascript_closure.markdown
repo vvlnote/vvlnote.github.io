@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "What I know about JavaScript Closure"
+title:      "What I know about JavaScript Closure - part I"
 date:       2020-03-22 21:27:40 -0400
 permalink:  what_i_know_about_javascript_closure
 ---
