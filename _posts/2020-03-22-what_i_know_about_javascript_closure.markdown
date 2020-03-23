@@ -17,10 +17,10 @@ A first class function can be:
 
 ### Higher Order Function 
 **It is a function that takes a function as an argument, or returns a function.**  
-We already encoutered a lot of functions that take a function/functions as arguments to other functions.
+We already encoutered a lot of functions that take a function/functions as arguments to other functions.  
 
 **Here, I would like to focus on returning a function. **   
-The reason is that when I saw this statement, there was another word came up from my mind, it is closure. I did not know if this kind of connection is relevant or not. You are welcome to comment on this.
+The reason is that when I saw this statement, there was another word came up from my mind, closure. I did not know if this kind of connection is relevant or not. You are welcome to comment on this.
 
   
 ### Closure  
