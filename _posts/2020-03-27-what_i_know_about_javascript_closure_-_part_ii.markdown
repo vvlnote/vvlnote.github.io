@@ -8,7 +8,7 @@ permalink:  what_i_know_about_javascript_closure_-_part_ii
 This post is continual of [What I know about JavaScript Closure - part I](https://vvlnote.github.io/what_i_know_about_javascript_closure).  In this post, I will work on the use-cases for closure.  
 
 ### use-cases for closures  
-#### * In JavaScript, closures are the primary mechanism used to enable data privacy.  
+#### *** In JavaScript, closures are the primary mechanism used to enable data privacy.  **
 I would like to elabrate more detail about the how to keep tracking the click amout in the [What I know about JavaScript Closure - part I](https://vvlnote.github.io/what_i_know_about_javascript_closure)  
 
 * When you tried to keep track some activities, in my example, I would like to track how many times that I have clicked on a button.  The first thing you will think is to create a variable for tracking the total amount of clicking. However, for a function, the most intuitive thinking is to have a globale variable count, then in the function clickMe to increase count by 1 when this function is called:   
@@ -64,7 +64,7 @@ function clickMe(msg) {
 From above code, the result will be the same as mentioned before, since you are not able to access clickCount(), the only way to access clickCount() is from clickMe(), so everytime, you call clickMe(), the count is initialized to 0, so the result only display 
 `clickMe button has been click 1`  
 
-#### *  Closure can resolve this issue, and also keep variable count as a private variable, no one outside the function can access it.   
+#### *  **Closure can resolve this issue, and also keep variable count as a private variable, no one outside the function can access it.  ** 
 
 ```
 function clickMeWrap(msg) {
@@ -83,7 +83,7 @@ When clickMeWrap() is called, the function clickMe is returned and assigned to c
 
 
 
-* Closures can be used to create stateful functions whose return values may be influenced by their internal state.  
+* **Closures can be used to create stateful functions whose return values may be influenced by their internal state.**  
 
 From the above function clickMeWrap(), I can modify it to return the value of count, so the count is modified by how many times the function is called. So it can return the state of clicking times. 
 
@@ -100,7 +100,7 @@ So if your program needs to do the things based on the value of count, then in t
 Normally the activation object of a function should be destroyed after the function is executed, however, closure keeps a reference to that object (in my example is count). So count is not destroyed after execution.
 
 
-#### * In functional programming, closures are frequently used for partial application & currying.   
+#### * **In functional programming, closures are frequently used for partial application & currying. **  
 
 * **Partial application**: A function returning another function that might return another function, but each returned function can take serveral parameters. 
 
