@@ -64,7 +64,7 @@ function clickMe(msg) {
 From above code, the result will be the same as mentioned before, since you are not able to access clickCount(), the only way to access clickCount() is from clickMe(), so everytime, you call clickMe(), the count is initialized to 0, so the result only display 
 `clickMe button has been click 1`  
 
-* Closure can resolve this issue, and also keep variable count as a private variable, no one outside the function can access it.   
+*  #### Closure can resolve this issue, and also keep variable count as a private variable, no one outside the function can access it.   
 
 ```
 function clickMeWrap(msg) {
