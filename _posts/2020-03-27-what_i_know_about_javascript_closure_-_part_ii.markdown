@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What I know about JavaScript Closure - part II"
-date:       2020-03-28 00:28:47 +0000
+date:       2020-03-27 20:28:48 -0400
 permalink:  what_i_know_about_javascript_closure_-_part_ii
 ---
 
@@ -34,7 +34,7 @@ clickMe button has been click 3
 
 It has the same result as in [my previouse post](https://vvlnote.github.io/what_i_know_about_javascript_closure). However, we all know, a global variable has a risk that anyone can access it, and change it unexpected. So the output may have unexpected result.   
 
-*  OK, then I declare the variable count inside the function, so no one can access it unexpecte, only when the clickMe() is called.  
+*  OK, then I declare the variable count inside the function, so no one can access it unexpectedly, only when the clickMe() is called.  
 
 ```
 
