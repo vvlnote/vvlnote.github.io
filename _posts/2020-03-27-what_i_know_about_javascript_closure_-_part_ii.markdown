@@ -83,7 +83,7 @@ When clickMeWrap() is called, the function clickMe is returned and assigned to c
 
 
 
-#### * Closures can be used to create stateful functions whose return values may be influenced by their internal state.  
+* Closures can be used to create stateful functions whose return values may be influenced by their internal state.  
 
 From the above function clickMeWrap(), I can modify it to return the value of count, so the count is modified by how many times the function is called. So it can return the state of clicking times. 
 
