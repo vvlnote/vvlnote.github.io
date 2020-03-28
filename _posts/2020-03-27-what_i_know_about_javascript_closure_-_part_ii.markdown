@@ -85,7 +85,7 @@ When clickMeWrap() is called, the function clickMe is returned and assigned to c
 
 * **Closures can be used to create stateful functions whose return values may be influenced by their internal state.**  
 
-From the above function clickMeWrap(), I can modify it to return the value of count, so the count is modified by how many times the function is called. So it can return the state of clicking times. 
+From the above function clickMeWrap(), I can modify it to return the value of count, so the count is updated by how many times the function is called. So it can return the state of clicking times. 
 
 ```
 function clickMeWrap() {
@@ -95,9 +95,6 @@ function clickMeWrap() {
 	 }
 }
 ```  
-So if your program needs to do the things based on the value of count, then in this case, you can have the value of the count to proceed your program to the next step.  
-
-Normally the activation object of a function should be destroyed after the function is executed, however, closure keeps a reference to that object (in my example is count). So count is not destroyed after execution.
 
 
 #### * **In functional programming, closures are frequently used for partial application & currying. **  
