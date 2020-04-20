@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Note about CSS - part I"
-date:       2020-04-20 03:42:01 +0000
+date:       2020-04-19 23:42:02 -0400
 permalink:  note_about_css_-_part_i
 ---
 
@@ -28,8 +28,25 @@ I would like to refresh my CSS knowledge. This is my summary I can use as refere
 	` i.e. <h1 style="color: red">Title</h1>`  
 	 
 * Internal  
-  Use <style> tag in the head section on the HTML page.  
+  It is defined inside style element, inside the head section.  
+	`<head>
+	        <style>
+					     body {
+							     background: url("./background.png");
+									 }
+						</style>
+	</head>`   
+	
 * External  
-
+   It is defined within the link element, inside the head sction of an HTML page.  
+	 
+	 Example:   
+	 `<html>
+	     <head>
+	        <link rel="stylesheet"  type="text/css"  href="../css/style.css">
+			 </head>
+		<html>`   
+		
+		
 
 ![](https://developer.mozilla.org/files/3537/linear-gradient.png)
