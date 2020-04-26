@@ -15,7 +15,7 @@ I would like to refresh my CSS knowledge. This is my summary I can use as refere
 * It is the standard for styling web sites, and used by most (or almost all) website across the web develpoment.  
 
   
-**CSS can be used for: **  
+CSS can be used for:   
 
 * Styling  
 * Layout  
