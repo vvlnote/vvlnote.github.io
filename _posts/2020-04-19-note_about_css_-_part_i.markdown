@@ -57,10 +57,11 @@ CSS can be added to HTML elements in 3 ways:
 		<html>`   
 		  
 ### CSS Selectors
-CSS selectors are used to "find" the HTML elements that you want to style.  
+CSS selectors are used to "find" the HTML elements that you want to style.   
 
-CSS Selectors can be defined into 5 categories:  
-* Simple Selectors : select elements based on tag name, class, and id.  
+**CSS Selectors can be defined into 5 categories:  **   
+
+* **Simple Selectors** : select elements based on tag name, class, and id.    
    * Element Selectors:  this is the most basic selectors.  
       ex:
 			          p {
@@ -75,16 +76,16 @@ CSS Selectors can be defined into 5 categories:
 						       color: red;
 									 text-align: left;
 									 }  
-     * This is used to select elements with a certain class name.
-     * Can be used on any and all elements with this class name.  
+     * This is used to select elements with a certain class name.  
+     * Can be used on any and all elements with this class name.   
      
-   * ID Selectors: 
+   * ID Selectors:   
       ex:  
            #service-image {
 					        background: url("servicelogo.png');
 									}  
      * This is used to select elements with a certain ID name.  
-     * Can be used on any and all elements with this ID name.  
+     * Can be used on any and all elements with this ID name.   
      									
   * Universal Selector: *, selects all HTML elements on the page.  
      ex:  
@@ -92,8 +93,10 @@ CSS Selectors can be defined into 5 categories:
 		          text-align: center;
 							color: yellow;
 				}
-* Combinaton selectors:  
+* **Combinaton selectors**:  
 * Pseudo-class selectors:  
 * Pseudo-element selectors:  
 * Attribute Selectors:  
 
+
+TO BE CONTINURED!!  
