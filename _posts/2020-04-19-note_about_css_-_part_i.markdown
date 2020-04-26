@@ -14,7 +14,7 @@ I would like to refresh my CSS knowledge. This is my summary I can use as refere
 * It is a language for designing or styling the web pages. 
 * It is the standard for styling web sites, and used by most (or almost all) website across the web develpoment.  
 
-**CSS can be used for: **    
+**CSS can be used for:    ** 
 * Styling  
 * Layout  
 * Animations  
