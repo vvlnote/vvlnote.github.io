@@ -14,7 +14,7 @@ I would like to refresh my CSS knowledge. This is my summary I can use as refere
 * It is a language for designing or styling the web pages. 
 * It is the standard for styling web sites, and used by most (or almost all) website across the web develpoment.  
 
-**CSS can be used for:    ** 
+**CSS can be used for: **    
 * Styling  
 * Layout  
 * Animations  
@@ -29,7 +29,7 @@ I would like to refresh my CSS knowledge. This is my summary I can use as refere
 * Typicall, it follows this method: Select, then edit.  
 
 
-**CSS can be added to HTML elements in 3 ways:  **  
+CSS can be added to HTML elements in 3 ways:  
 * Inline  
    Use the style attribute in HTML elemets.  
 	` i.e. <h1 style="color: red">Title</h1>`  
