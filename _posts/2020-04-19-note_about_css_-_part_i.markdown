@@ -32,11 +32,11 @@ CSS can be used for:
 
 
 CSS can be added to HTML elements in 3 ways:  
-* Inline  
+* **Inline **   
    Use the style attribute in HTML elemets.  
 	` i.e. <h1 style="color: red">Title</h1>`  
 	 
-* Internal  
+* ** Internal ** 
   It is defined inside style element, inside the head section.  
 	`<head>
 	        <style>
@@ -46,7 +46,7 @@ CSS can be added to HTML elements in 3 ways:
 						</style>
 	</head>`   
 	
-* External  
+* **External **   
    It is defined within the link element, inside the head sction of an HTML page.  
 	 
 	 Example:   
@@ -58,6 +58,8 @@ CSS can be added to HTML elements in 3 ways:
 		  
 ### CSS Selectors
 CSS selectors are used to "find" the HTML elements that you want to style.   
+
+
 
 **CSS Selectors can be defined into 5 categories:  **   
 
