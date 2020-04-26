@@ -95,4 +95,3 @@ CSS Selectors can be defined into 5 categories:
 * Pseudo-element selectors:  
 * Attribute Selectors:  
 
-![](https://developer.mozilla.org/files/3537/linear-gradient.png)
