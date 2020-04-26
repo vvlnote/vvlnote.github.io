@@ -94,7 +94,32 @@ CSS selectors are used to "find" the HTML elements that you want to style.
 		 * {
 		          text-align: center;
 							color: yellow;
-				}
+				}   
+				
+*  Grouping Selector:  selects all the HTML elements with the same style definitions. 
+    ex: if you would like to style h2, h3, p have text color in red, and background-color in green, you do not have to define them seperately as :  
+	   h2 {
+		      color: red;
+					background: green;
+					};
+		h3 {
+		      color: red;
+					background: green;
+					};
+		p {
+		    color: red;
+				background: green;
+				};  
+	
+	Instead,  you can define them as following:  
+	
+	h2, h3, p {
+	         color: red;
+					 background: green;
+					 }
+	
+		 
+				
 * **Combinaton selectors**:  
 * Pseudo-class selectors:  
 * Pseudo-element selectors:  
