@@ -14,7 +14,7 @@ I would like to refresh my CSS knowledge. This is my summary I can use as refere
 * It is a language for designing or styling the web pages. 
 * It is the standard for styling web sites, and used by most (or almost all) website across the web develpoment.  
 
-
+  
 **CSS can be used for: **  
 
 * Styling  
@@ -55,7 +55,7 @@ CSS can be added to HTML elements in 3 ways:
 	        <link rel="stylesheet"  type="text/css"  href="../css/style.css">
 			 </head>
 		<html>`   
-		
+		  
 ### CSS Selectors
 CSS selectors are used to "find" the HTML elements that you want to style.  
 
