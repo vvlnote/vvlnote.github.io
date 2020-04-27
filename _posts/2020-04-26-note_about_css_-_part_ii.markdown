@@ -85,7 +85,7 @@ In my [previous note](https://vvlnote.github.io/note_about_css_-_part_i), based 
   * 	[attribute$="value'] => Attribute value ends with certain value.  
   * 	[attribute~="value"] => Attribute is within Space Separated List.  
   * 	[attribute |= "value'] => Attribute is within Dash Separted List.   
-  * 	[attrbute1="value1'][attribute2^="value2'] => Mutliple Attribute Matches
+  * 	[attrbute1="value1'][attribute2^="value2'] => Mutliple Attribute Matches  
 
 	Note: more detail, please refer to  [The Skinny on CSS Attribute Selector](https://css-tricks.com/attribute-selectors/)  
 	
