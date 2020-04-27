@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "Note about CSS - part II"
-date:       2020-04-27 00:31:06 +0000
+date:       2020-04-26 20:31:07 -0400
 permalink:  note_about_css_-_part_ii
 ---
 
 
 In my [previous note](https://vvlnote.github.io/note_about_css_-_part_i), based on [w3schools](https://www.w3schools.com/css/css_selectors.asp), CSS selectors can be catogorized into 5 categories, they are:  
-* **Simple Selector**: this has been introduced in my [previous note](https://vvlnote.github.io/note_about_css_-_part_i)
+* **Simple Selector**: this has been introduced in my [previous note](https://vvlnote.github.io/note_about_css_-_part_i)  
 * **Combinator  Selectors **   
    * Descendant combinator   
       The  (single space) cominator selects nodes that are descendants of the first element.    
@@ -42,7 +42,7 @@ In my [previous note](https://vvlnote.github.io/note_about_css_-_part_i), based 
 	 Syntax:  
 	 A + B  
 	 all the B elements that directly follow A element.  
-	 Reference: [Adjacent Sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
+	 Reference: [Adjacent Sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)  
    
 * **Pseudo-class selectors **    
   
