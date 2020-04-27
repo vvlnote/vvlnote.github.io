@@ -43,7 +43,6 @@ In my [previous note](https://vvlnote.github.io/note_about_css_-_part_i), based 
 	 A + B  
 	 all the B elements that directly follow A element.  
 	 Reference: [Adjacent Sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)  
-   
 * **Pseudo-class selectors **    
   
 	The **:** pseudo allow the selection of elements based on state information that is not contained in the document tree. 
