@@ -73,8 +73,23 @@ In my [previous note](https://vvlnote.github.io/note_about_css_-_part_i), based 
 	
 	for the examples of each pseudo-element selector, please refer to [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
-* **Attribute selectors**
+* **Attribute selectors**  
+  It is used to select an element with some specific attribute or attribute value. 
+	This is an excellent way to style the HTML elements by grouping them based on specific attributes and teh attribute selector will select those elements with similar attritubes.  
+	Note: id and class are all attributes, so they can be used in Attribute selectors as well.  
+	Syntax:  
+  * 	[attribute] => Elements with this specific attribute.  
+  * 	[attritube="value"] => Attribute exactly matchs the value.  
+  * 	[attribute*="value"]=> Attribute Contains this specified value.   
+  * 	[attritube^="value"] => Attribute value begings with certain value. 
+  * 	[attribute$="value'] => Attribute value ends with certain value.  
+  * 	[attribute~="value"] => Attribute is within Space Separated List.  
+  * 	[attribute |= "value'] => Attribute is within Dash Separted List.   
+  * 	[attrbute1="value1'][attribute2^="value2'] => Mutliple Attribute Matches
+
+	
+	
 
 
-note: the general rule of selectors:  
+Note: the general rule of selectors please refer to: 
 [CSS Seelector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
