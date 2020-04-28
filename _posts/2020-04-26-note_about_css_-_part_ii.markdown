@@ -8,9 +8,10 @@ permalink:  note_about_css_-_part_ii
 
 In my [previous note](https://vvlnote.github.io/note_about_css_-_part_i), based on [w3schools](https://www.w3schools.com/css/css_selectors.asp), CSS selectors can be catogorized into 5 categories, they are:  
 * **Simple Selector**: this has been introduced in my [previous note](https://vvlnote.github.io/note_about_css_-_part_i).    
-* **Combinator  Selectors **   
-   * Descendant combinator   
-      The  (single space) cominator selects nodes that are descendants of the first element.    
+
+* **Combinator  Selectors **    
+   * Descendant combinator    
+      The  (single space) combinator selects nodes that are descendants of the first element.    
 			
 		Combines 2 selectors such that elements matched by the 2nd selector are selected if they have ancestor (parent, parent's parent, grand grand parents, etc) element matching the first selector.  
 		Syntax:   
