@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Note about CSS - part III (CSS Box Model)"
-date:       2020-05-04 03:22:37 +0000
+date:       2020-05-03 23:22:37 -0400
 permalink:  note_about_css_-_part_iii_css_box_model
 ---
 
