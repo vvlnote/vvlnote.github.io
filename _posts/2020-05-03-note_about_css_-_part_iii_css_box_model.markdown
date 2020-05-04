@@ -24,7 +24,9 @@ A box model contains :
 From above Box Model, the relative positions are easy to be recognized.  
 
 There are two kind of CSS box models: 
-* The Standard CSS Box Model
+* The Standard CSS Box Model  
+   By default, Standard CSS Box Model is used.  
+   When you define the width and the height attributes, these 2 attributes define the width and height of context  box, as shown in the image. 
 * The Alternative CSS Box Model
 
 In CSS, there are two types of boxes:  
