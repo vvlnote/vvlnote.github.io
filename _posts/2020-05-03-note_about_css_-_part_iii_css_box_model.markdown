@@ -29,17 +29,18 @@ There are two kind of CSS box models:
    When you define the width and the height attributes, these 2 attributes define the width and height of context  box, as shown in the image. 
 	 for example:  
 	 `
-	 .box {
+	 	 .box {
 	      width: 350px;
 				height: 150px;
 				} 
-		`  
+	 `  
+	 
+	The width and height defines the content box size. If you add the padding and broder, so the total visiable occupied area is :    
+	
+ width:  content width + right padding + left padding + right border size + left border size.  
+ height: content height + top padding + bottom padding + top border size + bottom border size.    
 		
-		the width and height defines the content box size. If you add the padding and broder, so the total visiable occupied space will be:  
-		width:  content width + right padding + left padding + right border size + left border size
-		height: content height + top padding + bottom padding + top border size + bottom border size
-		
-		So the total size that displays on the page is bigger than you defined in the .box.  
+  So the total size that displays on the page is bigger than you defined in the .box.  
 
 	 
 * The Alternative CSS Box Model  
@@ -53,11 +54,11 @@ There are two kind of CSS box models:
 		}
 	`  
 
-First, you need to declare the** box-sizing: border-box**; to use the alternative CSS Box model.
-so the width, and height you delcalre will streach to the broder box.   
+  First, you need to declare the** box-sizing: border-box**; to use the alternative CSS Box model.
+  Therefor the width, and height you define will cover up to the outer of broder box.   
 
-Tip: if you want all of your elements to use the alternative box model,  
-set the box-sizing to html element, then set all other elements to inherit that value. Please see the following:  
+  Tip: if you want all of your elements to use the alternative box model,  
+  set the box-sizing to html element, then set all other elements to inherit that value. Please see the following:  
 
 ```
 html {
@@ -68,8 +69,6 @@ html {
 	     box-sizing: inherit;
 		}
 ```  
-
-
 
 
 In CSS, there are two types of boxes:  
