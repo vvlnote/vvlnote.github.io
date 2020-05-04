@@ -27,7 +27,34 @@ There are two kind of CSS box models:
 * The Standard CSS Box Model  
    By default, Standard CSS Box Model is used.  
    When you define the width and the height attributes, these 2 attributes define the width and height of context  box, as shown in the image. 
-* The Alternative CSS Box Model
+	 for example:  
+	 `
+	 .box {
+	      width: 350px;
+				height: 150px;
+				} 
+		`  
+		
+		the width and height defines the content box size. If you add the padding and broder, so the total visiable occupied space will be:  
+		width:  content width + right padding + left padding + right border size + left border size
+		height: content height + top padding + bottom padding + top border size + bottom border size
+		
+		So the total size that displays on the page is bigger than you defined in the .box.  
+
+	 
+* The Alternative CSS Box Model  
+   ![Alternative CSS Box Model](https://mdn.mozillademos.org/files/16557/alternate-box-model.png)  
+	 
+	`
+	.box {
+	     box-sizing : border-box;
+			 width: 350px;
+			 height: 150px;
+		}
+	`  
+
+First, you need to declare the** box-sizing: border-box**; to use the alternative CSS Box model.
+so the width, and height you delcalre will streach to the broder box. 
 
 In CSS, there are two types of boxes:  
 
