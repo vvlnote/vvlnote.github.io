@@ -54,7 +54,7 @@ There are two kind of CSS box models:
 		}
 	`  
 
-  First, you need to declare the** box-sizing: border-box**; to use the alternative CSS Box model.
+  First, you need to declare the **box-sizing: border-box** ; to use the alternative CSS Box model.
   Therefor the width, and height you define will cover up to the outer of broder box.   
 
   Tip: if you want all of your elements to use the alternative box model,  
