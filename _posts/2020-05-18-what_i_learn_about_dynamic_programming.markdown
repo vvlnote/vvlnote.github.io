@@ -27,7 +27,22 @@ We can see that, F1 and F0 are the base cases of the recursive. And by looking a
 
 ![Fibonacci Sequence](https://raw.githubusercontent.com/vvlnote/vvlnote.github.io/master/img/FibonacciSequence.jpg)  
 
-From the notation above, we can see F(3), F(2) have be recalcuated serval times. Our example is a small number, but if we try to calculate to a bigger number, it will be ended up to T(2^n).   Since there are repeated calculation occurred, we can store all the numbers that are calculated, and reused them when they are needed.  
+From the notation above, we can see F(3), F(2) have be recalcuated serval times. Our example is a small number, but if we try to calculate to a bigger number, it will be ended up to O(2^n).   Since there are repeated calculation occurred, we can store all the numbers that are calculated, and reused them when they are needed.  
+
+### What is Dynamic Programming (DP)?
+
+Dyanmic Programming is an algorithmic technique is to break a large problem down into incremental steps sot that, at any given stage, optimal solutions are known to sub-problems.  
+
+So from the above picture, we can solve the Fibonacci sequence to break down into F(0) and F(1), and from this to get the F(n) we need to calculate. 
+
+
+**Dynamic Programming methods**  
+
+There are two methods can be used to solve the problems:
+* Top-dwon with Memoization
+* Bottom-up with Tabluation
+
+
 
 
 
