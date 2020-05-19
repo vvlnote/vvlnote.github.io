@@ -39,8 +39,49 @@ So from the above picture, we can solve the Fibonacci sequence to break down int
 **Dynamic Programming methods**  
 
 There are two methods can be used to solve the problems:
-* Top-dwon with Memoization
-* Bottom-up with Tabluation
+* Top-dwon with Memoization  
+
+```
+const fibMemoz = function(n){
+    let arr = new Array(n + 1).fill(null);
+    function fibMemozHelper(n){
+        if (arr[n] !== null) {
+            return arr[n];
+        } else {
+            if(n <= 2) {
+                arr[n] = 1;
+                return 1;
+            } else {
+                let result = fibMemozHelper(n-1) + fibMemozHelper(n-2);
+                arr[n] = result;
+                return result;
+            }
+        }
+    }
+    let result = fibMemozHelper(n);
+    return result;
+}
+
+```
+
+
+* Bottom-up with Tabluation  
+
+```
+const fibButtomUp = function(n){
+    let arr = new Array(n+1).fill(null);
+    arr[1] = 1;
+    arr[2] = 1;
+
+    for (let i = 3; i <=n; i++){
+        arr[i] = arr[i-1] + arr[i-2];
+    }
+
+    return arr[n];
+}
+```
+
+
 
 
 
