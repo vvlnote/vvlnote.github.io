@@ -137,7 +137,7 @@ Flexbox is considered to set one-dimensional layouts, which is either veritical 
 
 In general, when we start to use Flexbox model, we would need to first define a flext container.  The reason is that flextbox is a whole module and not a signle property, it involves a set of properties. Some of them are meant to be set on the container (parent element, known as 'flex container') whereas the others are meant to be set on the child items (flex items).
 
-**Properties for the flex container:**
+**Properties for the flex container:**   
 display: flex;  
 flex-direction: row | row-reverse | column | column-reverse;  
 flex-wrap: nowrap | wrap | wrap-reverse;  
@@ -146,15 +146,16 @@ justify-content: flext-start | flex-end | center | space-between | space-around 
 algin-items: stretch | flext-start | flex-end | center | baseline | first bseline | last baseline | start | end | self-end + ... safe | unsafe;  
 align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;  
 
-Properties for the flex items:  
-order: 5;
-flex-grow: 4;
-flex-shrink: 3;
-flex-basis:  | auto;
-flex: none | [ <'flex-grow'> <'flex-shrink'> ? || <'flex-basis'> ]  
+**Properties for the flex items:  **   
+order: 5;  
+flex-grow: 4;  
+flex-shrink: 3;  
+flex-basis:  | auto;  
+flex: none | [ <'flex-grow'> <'flex-shrink'> ? || <'flex-basis'> ]   
 Note:  
 * flex is the shorthand for 'flex-grow', 'flex-shrink' and 'flex-basis' combined. the 'flex-shrink' and 'flex-basis' are optional. 
 * It is recommended to use this shorthand property rather than set the individual properties.   
+
 algin-self: auto | flex-start | flex-end | center | baseline | stretch;  
 Note: float, clear and vertical-align have no effect on a flex item.  
 
