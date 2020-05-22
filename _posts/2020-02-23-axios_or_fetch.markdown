@@ -44,9 +44,8 @@ axios.get(url)
 ```
 
 anxios will throw error with http request, and the .catch() block is executed.   
-
-
-**fetch() ** 
+  
+**fetch() **   
 
 The basic syntax for fetch() is as following:  
 
@@ -79,6 +78,66 @@ fetch('http://example.com/movies.json')
   .then(data => console.log(data))
 	.catch(error => console.log(error););
 ```    
+
+#### Difference between Axios and Fetch   
+
+Fetch JSON post request:   
+```
+let url = 'https://someurl.com';
+let options = {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json;charset=UTF-8'
+            },
+            body: JSON.stringify({
+                property_one: value_one,
+                property_two: value_two
+            })
+        };
+let response = await fetch(url, options);
+let responseOK = response && response.ok;
+if (responseOK) {
+    let data = await response.json();
+    // do something with data
+}
+```   
+
+Axios JSON post request:   
+
+```
+let url = 'https://someurl.com';
+let options = {
+            method: 'POST',
+            url: url,
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json;charset=UTF-8'
+            },
+            data: {
+                property_one: value_one,
+                property_two: value_two
+            }
+        };
+let response = await axios(options);
+let responseOK = response && response.status === 200 && response.statusText === 'OK';
+if (responseOK) {
+    let data = await response.data;
+    // do something with data
+}
+```  
+
+From above examples, we can conclude the following differences:   
+* Fetch is built into most modern browsers; no installation is required, Axios is a stand-alone 3rd party package that need to be installed before it can be used.  
+* Fetch's body = Axios' data.  
+* Fetch's body has to be stringified, Axios' data contains the object.  
+* Fetch has no url in the request object, Axios has url in request object.  
+* Fetch request function includes the url as parameter, Axios request function does not include the url as paramenter.   
+* Fetch requset is OK when response object contains the ok property, Axiso request is ok when the response status is 200 and statusText is 'OK'.  
+* Fetch is a two-step process when handling JSON data, first, to make the actual request; second, to call the .json() method on the response, Axios performs automatic transforms of JSON data.  
+* Axios allows cancelling request and request timeout.    
+
 
 
 
