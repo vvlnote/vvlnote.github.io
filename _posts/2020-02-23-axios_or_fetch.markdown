@@ -10,7 +10,7 @@ Axios is a Javascript library used to make http requests from node.js, and it su
 
 
 fetch() method defined on the window object, which you can use to perform requests. This method returns a Promise that you can use to retrieve the resposne of the request.  fetch() method is used instead of XMLHttpRequest, since it is a Promise-based.  
-If you use .fetch() there is a 2-step process when handing JSON data. The first is to make the actual request and then the second  is to call the .json() method on the response.  
+
 
 ### Set up
 #### Axios
