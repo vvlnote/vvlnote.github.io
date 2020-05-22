@@ -21,42 +21,32 @@ npm i axios
 ```  
 
 #### fetch() 
-This is a built in function in the Node.js, so you do not need to install it separately. 
+This is a built in function in the Node.js, so you do not need to install it separately.    
 
 
-### Syntax
 
+### Syntax  
 
-How .fetch() hanldes error response. 
+**axios()**
 
+The basic syntax for axios() is as following: 
+```
+const url = 'http://example.com/movies.json';
+axios.get(url).then(response => console.log(response));
+```
+
+axios just retunrs the data object (response) in the JSON format, we do not need to use .json() to convert it.  
 
 ```
-fetch('/api/auth/user', {
-    method: 'GET',
-    config
-}).then(res => {
-    console.log('res.status = ${res.status}');
-    if (res.status >= 200 && res.status <= 299) {
-        return res;
-    } else {
-        throw Error(res.statusText);
-    }
-}).then(res => {
-    return res.json();
-}).then(data => {
-    dispatch({
-        type: USER_LOADED,
-        payload: data
-})}).catch(err => {
-    console.log(`err = ${err.message}`);
-    dispatch(returnErrors(err.response.data, err.response.status))
-    dispatch({
-        type: AUTH_ERROR
-    })
-})
-```  
+axios.get(url)
+   .then(response => console.log(response))
+	 .catch(error => console.log(error));
+```
 
-There is something to be aware of about the error about fetch request. In fetch request, we will get 'error' only if network error isecountered while in all other cases if will return 'OK'.  
+anxios will throw error with http request, and the .catch() block is executed. 
+
+
+**fetch() ** 
 
 The basic syntax for fetch() is as following:  
 
@@ -65,6 +55,11 @@ fetch('http://example.com/movies.json')
   .then(response => response.json())
   .then(data => console.log(data));
 ```  
+
+Note: .fetch() there is a two-step process when handling JSON data. The first step is to make the actual request and then the second is to call the .json() method ont he response.
+
+There is something to be aware of about the error about fetch request. In .fetch() request, we will get 'error' only if network error isecountered while in all other cases if will return 'OK'.  
+
 
 The returned response object contains the following properties:  
 * Response.status
@@ -84,6 +79,11 @@ fetch('http://example.com/movies.json')
   .then(data => console.log(data))
 	.catch(error => console.log(error););
 ```    
+
+
+
+
+
 
 
 
