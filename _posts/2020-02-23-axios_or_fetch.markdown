@@ -136,7 +136,7 @@ From above examples, we can conclude the following differences:
 * Fetch request function includes the url as parameter, Axios request function does not include the url as paramenter.   
 * Fetch requset is OK when response object contains the ok property, Axiso request is ok when the response status is 200 and statusText is 'OK'.  
 * Fetch is a two-step process when handling JSON data, first, to make the actual request; second, to call the .json() method on the response, Axios performs automatic transforms of JSON data.  
-* Axios allows cancelling request and request timeout.    
+* Axios allows cancelling request and request timeout. Fetch does not.      
 
 
 
