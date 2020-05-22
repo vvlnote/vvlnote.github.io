@@ -12,7 +12,7 @@ Axios is a Javascript library used to make http requests from node.js, and it su
 fetch() method defined on the window object, which you can use to perform requests. This method returns a Promise that you can use to retrieve the resposne of the request.  fetch() method is used instead of XMLHttpRequest, since it is a Promise-based.  
 
 
-### Set up
+### Set up  
 #### Axios
 Before you can use Axios, you need to install it. 
 
@@ -43,7 +43,7 @@ axios.get(url)
 	 .catch(error => console.log(error));
 ```
 
-anxios will throw error with http request, and the .catch() block is executed. 
+anxios will throw error with http request, and the .catch() block is executed.   
 
 
 **fetch() ** 
