@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using Hashmap to solve Subarray Sum Equals K"
-date:       2020-05-24 21:31:50 +0000
+date:       2020-05-24 17:31:51 -0400
 permalink:  using_hashmap_to_solve_subarray_sum_equals_k
 ---
 
@@ -116,6 +116,9 @@ var subarraySum = function(nums, k) {
     return ans;
 ```
 
-The time complexity is O(n), space complexity is O(n).
+The time complexity is O(n), space complexity is O(n).  
+
+The idea behind this algorithm is: 
+IF the cumluative sum upto two indices, say i and j is a difference os k, i.e. sum[i] - sum[j] = k; the sum of elements laying between indices is an j is k. 
 
 
