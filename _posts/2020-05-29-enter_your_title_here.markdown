@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Enter your title here"
-date:       2020-05-30 00:33:54 +0000
+title:      "Note about CSS - part V (CSS Layout)"
+date:       2020-05-29 20:33:55 -0400
 permalink:  enter_your_title_here
 ---
 
