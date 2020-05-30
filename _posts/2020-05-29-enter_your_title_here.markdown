@@ -48,7 +48,8 @@ These lines make up the sturcture of the grid.
 	 It is the single 'unit' of hte gird.
 	 In the picuture, the green grid cell is between row grid lines 1 and 2, and column gird lines 5 and 6.  
 
-**Properties for the Grid Container (Parent element)  **  
+**Properties for the Grid Container (Parent element)  **    
+
 * display: grid | inline-grid
 * grid-template-columns
 * grid-template-rows
@@ -131,7 +132,7 @@ Note: `"main main . sidebar" `  , the . (a period) indicate an empty grid cell.
 	 Syntax: 
 	 `
 	   .container {
-		    gap: <grid-row-gap> <grid-column-gap>;
+		    gap: grid-row-gap / grid-column-gap;
 		}
 	 `  
 	 Note: if no row-gap is specified, it's set to the same value as column-gap.  
@@ -174,7 +175,7 @@ Note: `"main main . sidebar" `  , the . (a period) indicate an empty grid cell.
 	 Syntax:  
 	 `  
 	    .container {
-			  place-items: <align-items> / <justify-items>;
+			  place-items: align-items / justify-items;
 		 }
 	 
 	 `  
@@ -236,7 +237,7 @@ In this case, the following properties can align the grid within the grid contai
   This property is the shorthand for setting grid-template-rows, grid-etmplate-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and grid-auto-flow. 
 
 
-**Properties for the Grid Items:  **  
+**Properties for the Grid Items:  **    
 
 * grid-column-start  
 * grid-column-end  
@@ -259,7 +260,7 @@ In this case, the following properties can align the grid within the grid contai
    Shorthand for grid-row-start and grid-row-end.  
 	 
 * grid-area  
-   a. given a grid item a name, so it can be refereced by **grid-template-areas** property of parent element.   
+   a. given a grid item a name, so it can be refereced by  **grid-template-areas**  property of parent element.   
 	 b. this can be used as a shorter shorthand for grid-row-start+grid-column-start + grid-row-end + grid-column-end.  
 
 
